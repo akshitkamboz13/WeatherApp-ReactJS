@@ -8,6 +8,7 @@ dotenv.config();
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "/WeatherApp-ReactJS/",
   define: {
     'process.env.API_KEY': JSON.stringify(process.env.API_KEY),
   },
